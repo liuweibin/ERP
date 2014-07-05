@@ -1,0 +1,33 @@
+
+body{margin:0px;padding:0px;}
+.f-slider {
+	POSITION: relative; OVERFLOW: hidden
+}
+.f-slider UL.f-slider-list {
+	OVERFLOW: hidden
+}
+.f-slider UL.f-slider-list LI {
+	LINE-HEIGHT: 0; WIDTH: 504px; HEIGHT: 180px
+}
+.f-slider UL.f-slider-list IMG {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+.f-slider .f-slider-triggers {
+	LIST-STYLE: none none outside; Z-INDEX: 10; POSITION: absolute; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; BOTTOM: 5px; PADDING-RIGHT: 0px; HEIGHT: 21px; RIGHT: 2px; PADDING-TOP: 0px
+}
+.f-slider .f-slider-triggers LI {
+	BORDER-BOTTOM: #FF9900 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #FF9900 1px solid; MARGIN: 2px 3px; WIDTH: 15px; FONT: 12px Arial; BACKGROUND: #ffffff 0px 0px; FLOAT: left; HEIGHT: 15px; COLOR: #FF9900; BORDER-TOP: #FF9900 1px solid; CURSOR: pointer; BORDER-RIGHT: #FF9900 1px solid; -x-system-font: none; font-size-adjust: none; font-stretch: normal
+}
+.f-slider .f-slider-triggers LI.current {
+	BORDER-BOTTOM: #eeeeee 1px solid; BORDER-LEFT: #eeeeee 1px solid; LINE-HEIGHT: 19px; MARGIN: 0px 3px; WIDTH: 19px; BACKGROUND: #FF9900 0px 0px; HEIGHT: 19px; COLOR: #ffffff; FONT-SIZE: 16px; BORDER-TOP: #eeeeee 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #eeeeee 1px solid
+}
+.switcher {
+	WIDTH: 504px; FLOAT: left; HEIGHT: 180px;
+}
+
+STRONG {
+	FONT-WEIGHT: bold
+}
+P {
+	LINE-HEIGHT: 20px; FONT-SIZE: 12px
+}

@@ -1,0 +1,542 @@
+body{font-size:14px}
+.topwrapper{background:left top repeat-x; height:80px}
+.textstyle{height:20px}
+#logoarea a{padding-top:10px; text-indent:0; width:235px; height:40px}
+.paneltoolbar li{padding:3px 5px}
+
+.sidewrapper{position:relative}
+.sidecolumn .sideblock{margin:12px 1px 0; padding-bottom:1px; border:1px solid #ccc}
+.sidecolumn .head{_position:relative; margin:-10px -1px 0 5px}
+.sidecolumn .head h3{_position:relative; margin-left:-6px; height:44px; line-height:44px; width:150px}
+.sidecolumn #accountinfo .head h3{height:44px; line-height:44px; width:150px}
+.sidecolumn .head h3 span{display:none}
+.sidecolumn .head ins{float:right; margin-right:10px; padding-top:15px}
+.sidecolumn .head ins a, .sidecolumn .head ins a:visited{display:block; background:url(images/icon.png) -12px -130px no-repeat; width:18px; height:18px; text-indent:-9999px}
+.sidecolumn .head ins a:hover{background-position:-43px -130px}
+.sidecolumn .head ins a:active{background-position:-74px -130px}
+.sidecolumn .head ins a.un, .sidecolumn .head ins a.un:visited{background-position:-106px -46px}
+.sidecolumn .head ins a.un:hover{background-position:-106px -76px}
+.sidecolumn .head ins a.un:active{background-position:-106px -105px}
+.sidemenu{margin:3px 3px 2px; border:1px solid #e1e1e1; background:#fff}
+.sidemenu li{overflow:hidden; _zoom:1}
+.sidecolumn li{padding:5px; line-height:20px}
+#capability ul li{border-top:1px dotted #e1e1e1}
+.sidecolumn li a{* display:inline}
+.sidecolumn #accountinfo label, 
+.sidecolumn #servicearea label{float:left; width:60px; text-align:right; font-size:12px}
+.sidecolumn #servicearea .label{padding-left:60px}
+.sidecolumn #accountinfo ul li a{display:inline}
+.sidecolumn #accountinfo a img{vertical-align:middle}
+.sidecolumn .js-msg{padding:5px}
+.sideslide{position:fixed; _position:absolute; _right:-9px; left:198px; _left:auto; top:250px; _top:207px; _z-index:9; display:block; background:url(images/bar.png) -107px -616px no-repeat; width:11px; height:58px}
+.sideslide:hover{background-position:-142px -616px}
+.sideslide:active{background-position:-178px -616px}
+.sideback .sideslide{background:url(images/bar.png) left -616px no-repeat; left:0px}
+.sideback .sideslide:hover{background-position:-36px -616px}
+.sideback .sideslide:active{background-position:-71px -616px}
+.sideback .sidecolumn{display:none}
+.sideback .sidewrapper{width:0px}
+.sideback .maincolumn{margin-left:15px}
+
+.category{margin-top:-31px; margin-left:-10px; overflow:hidden; _zoom:1; font-size:15px}
+.category ul li, .searchbar, .searchbar li{float:left}
+.category ul li{_position:relative; margin:0 4px 0 1px; padding-left:5px}
+.category ul li a{_position:relative; z-index:10; display:block; * float:left; margin-right:-3px; padding:3px 10px 2px 5px; line-height:20px}
+.category ul li.current{background-position:left -38px}
+.category ul li.current a{background-position:right -38px; padding-bottom:3px; color:#fff; font-weight:bold}
+.mainnavback{position:inherit; clear:left; margin-left:-8px; margin-bottom:10px; padding:10px; overflow:hidden; _zoom:1}
+#proname{margin-bottom:5px; line-height:18px; _zoom:1}
+#proname ul{padding:5px; overflow:hidden; _zoom:1}
+#proname ul li{float:left; margin:2px; width:155px}
+#proname ul li a{display:block; padding:3px 0}
+#proname ul li a:hover{background:#f1f1f1}
+.searchbar label{display:none}
+.searchbar input{margin-right:10px; padding:0 5px; background:url(images/repeatx.png) left -294px repeat-x; border:1px solid #ff8b00; height:25px; line-height:25px; width:260px}
+.searchbar button{margin-top:3px; padding-bottom:2px; background:url(images/icon.png) -12px -158px; border:none; height:25px; width:47px; line-height:25px; cursor:pointer}
+.searchbar button:hover{background-position:-68px -158px}
+.searchbar button:active{background-position:-12px -187px}
+.deysearch li{padding:2px 5px; line-height:25px}
+.deysearch li a{color:#f7f7f7}
+.deysearch li a:hover{color:#222}
+.deysearch li a:hover{color:#666}
+.discontrol{font-size:12px}
+
+h1{font-size:18px}
+blockquote{margin:10px 50px; border:1px solid #f1f1f1; background:#f7f7f7; line-height:1.5}
+blockquote p{margin:0}
+blockquote p, blockquote h5{margin:5px 0}
+blockquote q{display:block}
+blockquote a{color:#f60}
+blockquote a:hover{color:#222}
+blockquote a:active{color:#666}
+.blockcommon, .block{border:1px solid #ccc}
+.toolabut{border:none}
+ 
+.tablelist{border:1px solid #ccc}
+.tablelist th{font-weight:normal!important; background:url(images/repeatx.png) left -411px repeat-x!important; border-bottom:1px solid #ddd}
+.tablelist td{padding:5px; border-bottom:1px solid #ddd; border-right:1px solid #eee}
+.tablelist tr.hover td{background:#eef5fb}
+.tablelist td a{color:#1980a1; text-decoration:underline}
+.tablelist td a:hover{color:#f60}
+.tablelist td a:active{color:#666}
+.tablelist td .other, 
+.tablelist td .del, 
+.tablelist td .stop, 
+.tablelist td .edit{padding:1px 6px; line-height:18px; line-height:22px\9; height:20px; color:#333; text-decoration:none}
+.tablelist tr.hover td .other, 
+.tablelist tr.hover td .del, 
+.tablelist tr.hover td .stop, 
+.tablelist tr.hover td .edit{padding:0 5px; background:#fff; border:1px solid #ccc; color:#1980a1}
+.tablelist tr.hover td .other:hover, 
+.tablelist tr.hover td .del:hover, 
+.tablelist tr.hover td .stop:hover, 
+.tablelist tr td .edit:hover{background:#fff; border:1px solid #f60; color:#f60; color:#f60}
+.tablelist td .other span, 
+.tablelist td .del span, 
+.tablelist td .stop span, 
+.tablelist td .edit span{padding-left:0; padding-right:0}
+.tablelist tr td .other div{display:none; position:absolute; left:-178px; bottom:-100%; z-index:9999; padding:10px; width:150px; border:3px solid #ccc; background:#fff; color:#222}
+.tablelist tr.hover td .other:hover div{display:block}
+.tablelist tr td input.short{width:50px}
+
+.formul li input[type="text"]{* height:15px!important; * line-height:15px!important}
+
+#tab li, .tab li{margin-top:1px}
+#tab li a, #tab li a span, .tab li a, .tab li a span{padding-right:10px; background:url(images/bar.png) right -699px no-repeat; line-height:32px; height:32px; cursor:pointer}
+#tab li a span, .tab li a span{padding-right:0; padding-left:10px; background-position:left -699px}
+#tab li a:hover, .tab li a:hover{background-position:right -748px}
+#tab li a:hover span, .tab li a:hover span{background-position:left -748px}
+#tab li a:active, .tab li a:active{background-position:right -798px}
+#tab li a:active span, .tab li a:active span{background-position:left -798px}
+#tab li.current, .tab li.current{position:relative; margin-bottom:-1px; z-index:3}
+#tab li.current a, #tab li.current a:hover, .tab li.current a, .tab li.current a:hover{background-position:right -841px; line-height:33px; height:33px}
+#tab li.current a span, #tab li.current a:hover span, .tab li.current a span, .tab li.current a:hover span{background-position:left -841px; line-height:33px; height:33px; color:#f60; font-weight:bold}
+.subnav a{margin:auto 5px}
+.subnav a span{padding:3px 5px}
+.subnav a.current{background:#f60; color:#f7f7f7}
+
+.mvpwdcaptcha{float:left; padding-bottom:18px; background:url(images/data.jpg) left bottom no-repeat}
+#letternav a{display:-moz-inline-stack; display:inline-block; * zoom:1; *display:inline; margin:1px; width:30px; height:25px; border:1px solid #ccc; background:#fff; line-height:25px; text-align:center}
+#letternav a.all{width:60px}
+#letternav a:hover{border-color:#f60}
+#letternav a:hover{border-color:#666}
+#letternav a.current{border-color:#d93a09; background:#f60; color:#fff; font-weight:bold; cursor:default}
+
+.gamelistone{margin:5px 0; overflow:hidden; _zoom:1; border:1px solid #f1f1f1; background:#f7f7f7; cursor:default}
+.gamelistone a{color:#333}
+.gamelistone:hover{background:#fff; border-color:#f0ab7d}
+.gamelistone:hover a{color:#000}
+.gamelistone:hover a:hover{color:#f60}
+.gamelistone:hover a:active{color:#666}
+.gamelistone h4{float:left; padding:0; color:#f60; background:#fff; line-height:30px; height:30px; width:30px; text-align:center; font-size:16px}
+.gamelistone:hover h4{background:#f60; color:#f7f7f7}
+.gamelistone ul.transverse{clear:none; margin-left:40px}
+.gamelistone ul.transverse li{margin:5px; * float:none; * display:inline}
+.gamelistone ul.transverse li a{padding:5px; * zoom:1; * line-height:1.5em}
+.filedown li{position:relative; margin:2px 0; padding:20px 20px 20px 50px; border:1px solid #f1f1f1}
+.filedown li:hover{border-color:#f0ab7d; font-weight:bold}
+.filedown li i{position:absolute; top:13px; left:10px; _left:-40px; display:block; background:url(images/icon.png) left top no-repeat; width:31px; height:31px}
+.filedown li i.file{background-position:-52px -279px}
+.filedown li i.soft{background-position:0px -279px}
+
+#cardlist li{position:relative; margin-right:-1px; padding:2px 0; width:25%}
+#cardlist li i{position:absolute; bottom:2px; _bottom:-4px; right:1px; display:block; height:14px; width:27px; background:url(images/icon.png) -81px -193px no-repeat; text-indent:-9999px}
+#cardlist li a{display:block; margin:0 1px; padding:5px; _padding:5px 0px; border:1px solid #f1f1f1; background:#f7f7f7; line-height:25px; overflow:hidden; white-space:nowrap; -o-text-overflow:ellipsis;text-overflow:ellipsis}
+#cardlist li a:hover{background:#fff; border-color:#f0ab7d}
+#cardlist li.all{clear:left; display:block; width:auto; width:100%}
+
+.textarea p{padding-left:6em; margin:5px; line-height:2}
+.textarea p strong{float:left; margin-left:-6em; padding:0; font-size:inherit}
+samp{float:left; padding:5px; border:1px solid #ccc}
+tt{display:block; margin-left:200px; line-height:2}
+h1 small{padding:0 10px; font-size:12px; font-weight:normal}
+
+.formul{font-size:12px}
+.formul li.all input, .formul li.all select{margin-right:3px}
+
+a.qiehuan,a.qiehuan:visited{background-position:-497px -175px}
+a.qiehuan:hover{background-position:-524px -175px}
+a.qiehuan:active{background-position:-552px -175px}
+a.duihuan,a.duihuan:visited{background-position:-497px -116px}
+a.duihuan:hover{background-position:-524px -116px}
+a.duihuan:active{background-position:-552px -116px}
+a.chongzhi,a.chongzhi:visited{background-position:-497px -148px}
+a.chongzhi:hover{background-position:-524px -148px}
+a.chongzhi:active{background-position:-552px -148px}
+a.tuijian,a.tuijian:visited{background:url(images/icon.png) left top no-repeat; background-position:-12px -13px; display:block; width:18px; height:18px; text-indent:-9999px; vertical-align:middle}
+a.tuijian:hover{background-position:-43px -13px}
+a.tuijian:active{background-position:-74px -13px}
+a.tuijian-no{background-position:-106px -13px}
+a.searchset{width:24px; height:22px; background:url(images/icon.png) left top no-repeat; background-position:-12px -105px}
+a.searchset:hover{background-position:-43px -105px}
+a.searchset:active{background-position:-72px -105px}
+
+#footer{text-align:right; font-size:12px}
+#footer p{padding:5px 10px}
+.dialog-loading{background:url(../dialog/css/img/loading.gif) no-repeat center; width:100%; height:100%}
+.dialog-mask{border:0px; background:#ccc; margin:0px; padding:0px; position:absolute; top:0px; left:0px}
+
+.dialog-box{background:#fff; width:300px}
+.dialog-box .dialog-header{padding:3px 6px 7px; height:14px; cursor:move}
+.dialog-box .dialog-title{float:left; text-align:left; font-size:14px; font-weight:bold}
+.dialog-box .dialog-close{float:right; cursor:pointer; margin:3px 3px 0 0; height:11px; width:11px; background:url(../dialog/css/img/close.gif) no-repeat}
+.dialog-box .dialog-content{clear:both; margin:0px; padding:6px; color:#666; font-size:13px; overflow-y:auto}
+.dialog-box .dialog-button{clear:both; border-top:1px solid #4f6d81; text-align:center; margin:0px; padding-top:5px}
+
+.errorbox{border:1px solid #924949}
+.errorbox .dialog-content{background:#fff url(../dialog/css/img/e_bg.jpg) bottom right no-repeat}
+.errorbox .dialog-header{background:url(../dialog/css/img/e_hd.gif) repeat-x; color:#6f2c2c}
+.warningbox{border:1px solid #c5a524}
+.warningbox .dialog-content{background:#fff url(../dialog/css/img/w_bg.jpg) bottom right no-repeat}
+.warningbox .dialog-header{background:url(../dialog/css/img/w_hd.gif) repeat-x; color:#957c17}
+.successbox{border:1px solid #60a174}
+.successbox .dialog-content{background:#fff url(../dialog/css/img/s_bg.jpg) bottom right no-repeat}
+.successbox .dialog-header{background:url(../dialog/css/img/s_hd.gif) repeat-x; color:#3c7f51}
+.promptbox{border:1px solid #4f6d81}
+.promptbox .dialog-content{background:#fff url(../dialog/css/img/p_bg.jpg) bottom right no-repeat}
+.promptbox .dialog-header{background:url(../dialog/css/img/p_hd.gif) repeat-x; color:#355468}
+.dialogbox{border:1px solid #4f6d81}
+.dialogbox .dialog-content{background:#fff}
+.dialogbox .dialog-header{background:url(../dialog/css/img/p_hd.gif) repeat-x; color:#355468}
+.boxbox{border:1px solid #4f6d81}
+.boxbox .dialog-content{background:#fff}
+.boxbox .dialog-header{background:url(../dialog/css/img/p_hd.gif) repeat-x; color:#355468}
+
+.weedialog{}
+.weedialog .dialog-header{height:27px; position:relative; cursor:move}
+.weedialog .dialog-tl{position:absolute; left:0px; top:0px; width:12px; height:27px; background:url(../dialog/css/img/dialog_tl.png) no-repeat}
+.weedialog .dialog-title{text-align:left; margin-left:12px; margin-right:35px; width:auto; height:17px; padding-top:10px; *padding-top:7px; background:url(http://bar.ofcard.com/include/js/dialog/css/img/dialog_tc.png) repeat-x; font-weight:bold}
+.weedialog .dialog-tr{position:absolute; right:0px; top:0px; width:35px; height:27px; background:url(../dialog/css/img/dialog_tr.png) no-repeat}
+.weedialog .dialog-close{margin:10px 0px 0px 10px}
+.weedialog .dialog-close a{width:16px; height:16px; display:block}
+.weedialog .dialog-con{background:url(../dialog/css/img/dialog_cl.png) repeat-y left; padding-left:4px}
+.weedialog .dialog-con2{background:url(../dialog/css/img/dialog_cr.png) repeat-y right; padding-right:4px}
+.weedialog .dialog-content{clear:both; line-height:20px; padding:5px 5px 0px 5px; background:#fff; overflow-y:auto; overflow-x:hidden}
+.weedialog .dialog-button{clear:both; text-align:center; padding:5px 5px 0px 5px; background:#fff}
+.weedialog .dialog-button input{width:40px}
+.weedialog .dialog-bot{clear:both; height:9px; position:relative; font-size:0px}
+.weedialog .dialog-bl{position:absolute; left:0px; top:0px; width:12px; height:9px; background:url(../dialog/css/img/dialog_bl.png) no-repeat}
+.weedialog .dialog-bc{margin-left:12px; margin-right:12px; width:auto; height:9px; background:url(../dialog/css/img/dialog_bc.png) repeat-x}
+.weedialog .dialog-br{position:absolute; right:0px; top:0px; width:12px; height:9px; background:url(../dialog/css/img/dialog_br.png) no-repeat}
+
+.pagination{float:right}
+ 
+.pagination a{border:solid 1px #CCC; color:#f60}
+
+.pagination a, .pagination span{display:block; float:left; padding:2px 8px; margin-right:5px; margin-bottom:5px; cursor:pointer}
+.pagination a:hover{border-color:#666}
+.pagination .current{background:#f60; color:#fff; border:solid 1px #f60; font-weight:bold}
+
+.pagination .current.prev, .pagination .current.next{color:#999; border-color:#999; background:#fff; font-weight:normal}
+#nav{z-index:99}
+
+/* reg */
+.commonpagesbody{background:#f3f4f5}
+.s731{margin:0 auto; width:731px}
+.commonpages{font-family:"Microsoft YaHei"; line-height:25px}
+.commonpages .header{height:69px; background:url(../../../images/regimg.png) left top no-repeat; overflow:hidden; _zoom:1}
+.commonpages .header a#logo{position:relative; float:left; margin:16px 0 0 26px; padding:10px 10px 10px 150px; color:#f7f7f7}
+.commonpages .header a#logo i{display:none; position:absolute; top:-5px; right:0; padding:0 5px; font-size:12px; line-height:18px; color:#f1f1f1}
+.commonpages .header a#logo:hover i{display:block}
+.commonpages .header .login{float:right; margin:40px 20px 0}
+.commonpages .header .login:hover{color:#f1f1f1; text-decoration:underline}
+.commonpages .header .login:action{color:#000}
+.commonpages .pagesarea{padding:20px 0; border:1px solid #ccc; border-top:none; font-size:16px!important; background:#fff}
+.commonpages .pagesarea .formul li{padding:5px 10px}
+.commonpages .pagesarea .formul li .transverse li{padding: 5px!important;margin-right:0px!important}
+.commonpages .pagesarea .formul li span{padding:0 5px}
+.commonpages .pagesarea .formul li .common{margin:-10px}
+.commonpages .pagesarea .formul li label{line-height:26px}
+.commonpages .pagesarea .formul li.btnarea, .commonpages .pagesarea .formul li.label, .commonpages .footer .copyright{padding-left:210px}
+.commonpages .footer .copyright small{float:right; padding:10px; font-size:10px}
+.commonpages .pagesarea .middle{line-height:20px!important; height:20px!important; width:160px}
+.commonpages .pagesarea select{line-height:24px!important; height:24px!important; border:1px solid #ccc}
+.commonpages .pagesarea input.short{width:30px}
+.commonpages .pagesarea input.shorter{width:50px}
+.commonpages .pagesarea input.hover{background:#fff; border-color:#999}
+#imgs{vertical-align:middle}
+.commonpages .pagesarea input.now{background:url(../../../images/regimg.png) -54px -93px no-repeat; border-color:#666}
+/* button */
+.commonpages .pagesarea .formul li.btnarea button,.commonpages .pagesarea .formul li.btnarea button:visited {padding-bottom:2px;* padding-bottom:0px;width: 58px;height: 26px;border:none;cursor: pointer;outline: none;background:url(../../../icon20110727.png) -94px -96px no-repeat;font-size: 14px; font-family:Hei,"Microsoft Yahei",SimHei;color:#fff;vertical-align:middle;}
+@-moz-document url-prefix(){.commonpages .pagesarea .formul li.btnarea button{padding-bottom:4px;}}
+button.gray,button.gray:visited {background-position: -68px -416px;color:#4c4c4c;}
+.commonpages .pagesarea .formul li.btnarea button:hover {background-position: -94px -238px;color: #030;}
+.commonpages .pagesarea .formul li.btnarea button:active,button.disable,button.disable:visited,button.disable:hover,button.disable:active {background-position: left -416px;cursor: default;color: #888;}
+.commonpages .pagesarea .formul li.btnarea button.s4,.commonpages .pagesarea .formul li.btnarea button.s4:visited {background-position: left -96px;width: 92px;height: 26px;}
+.commonpages .pagesarea .formul li.btnarea button.grayS4,.commonpages .pagesarea .formul li.btnarea button.grayS4:visited {background-position: -94px -380px;color:#4c4c4c;width: 92px;height: 26px;}
+.commonpages .pagesarea .formul li.btnarea button.s4:hover,.commonpages .pagesarea .formul li.btnarea button.grayS4:hover {background-position: left -238px;}
+.commonpages .pagesarea .formul li.btnarea button.s4:active,.commonpages .pagesarea .formul li.btnarea button.s4Disable,.commonpages .pagesarea .formul li.btnarea button.s4Disable:visited,.commonpages .pagesarea .formul li.btnarea button.s4Disable:hover,.commonpages .pagesarea .formul li.btnarea button.s4Disable:active,.commonpages .pagesarea .formul li.btnarea button.grayS4:active {background-position: left -380px;color: #888;cursor: default;}
+.commonpages .pagesarea .formul li.btnarea button.big,.commonpages .pagesarea .formul li.btnarea button.big:visited,.commonpages .pagesarea .formul li.btnarea button.free,.commonpages .pagesarea .formul li.btnarea button.free:visited {background-position: left -48px;width: 128px;height: 38px; line-height:38px; font-size: 25px;}
+.commonpages .pagesarea .formul li.btnarea button.big:hover {background-position: left -190px;}
+.commonpages .pagesarea .formul li.btnarea button.big:active,.commonpages .pagesarea .formul li.btnarea button.bigdisable,.commonpages .pagesarea .formul li.btnarea button.bigdisable:visited,.commonpages .pagesarea .formul li.btnarea button.bigdisable:hover,.commonpages .pagesarea .formul li.btnarea button.bigdisable:active {background-position: left -332px;color: #888;cursor: default;}
+.commonpages .pagesarea .formul li.btnarea button.free,.commonpages .pagesarea .formul li.btnarea button.free:visited {*padding-bottom: 12px;background-position: left top;width: 260px;line-height: 22px;}
+.commonpages .pagesarea .formul li.btnarea button.free:hover {background-position: left -142px;}
+.commonpages .pagesarea .formul li.btnarea button.free:active,.commonpages .pagesarea .formul li.btnarea button.freedisable,.commonpages .pagesarea .formul li.btnarea button.freedisable:visited,.commonpages .pagesarea .formul li.btnarea button.freedisable:hover,.commonpages .pagesarea .formul li.btnarea button.freedisable:active {background-position: left -284px;color: #888;cursor: default;}
+
+
+.commonpages .pagesarea .formul li .gray{color:#b0b0b0}
+.commonpages .pagesarea .formul li .ok{color:#64c60c}
+.commonpages .pagesarea .formul li .ok s, 
+.commonpages .pagesarea .formul li .remark s, 
+.commonpages .pagesarea .formul li .error s{display:inline-block; * zoom:1; * display:inline; margin-right:6px; height:18px; width:18px; line-height:25px; vertical-align:middle; background:url(images/regimg.png) left -93px no-repeat}
+.commonpages .pagesarea .formul li .remark s{background:url(images/regimg.png) left -176px no-repeat}
+.commonpages .pagesarea .formul li .error s{background:url(images/regimg.png) left -135px no-repeat}
+
+.xieyi{float:left;padding:10px;border:1px solid #ccc;height:300px;overflow:auto;}
+.xieyi h3{font-size:16px;text-align:center;}
+.xieyi h4{padding:10px 0 5px 0}
+.xieyi p{padding:5px;text-indent:24px;}
+.xieyi .subP{padding:5px 24px;text-indent:0px;}
+.xieyi .info{margin:5px;padding:0 10px; background:#f7f7f7;border:1px solid #f1f1f1;}
+
+#showresult li{margin:5px; padding:0; background:url(images/ball_red.gif) left top no-repeat; width:32px; height:32px; color:#fff; font-weight:bold; font-size:16px; text-align:center; line-height:32px}
+#showresult li.sball_blue{background:url(images/ball_blue.gif) left top no-repeat}
+.redarea{float:left; width:65%; border:1px solid #f2c3c3; background:#fff1f1}
+.redarea ul, 
+.bluearea ul{padding:10px; overflow:hidden; _zoom:1}
+.redarea ul li, 
+.bluearea ul li{float:left; margin:5px; background:url(images/ball_grey.gif) left top no-repeat; width:26px; height:26px; line-height:26px; text-align:center; cursor:pointer}
+.redarea ul li:hover{background:url(images/ball_grey.gif) left top no-repeat}
+.redarea ul li.none{display:none}
+.redarea ul li.li_red{background:url(images/ball_lred.gif) left top no-repeat; color:#fff; font-weight:bold}
+.blueballarea{float:left; margin-right:-2px; width:35%; overflow:hidden; _zoom:1}
+.bluearea{margin:0 3px 0 10px; border:1px solid #b1cdea; background:#dff3ff; overflow:hidden; _zoom:1}
+.bluearea ul li.li_blue{background:url(images/ball_blue_s.gif) left top no-repeat; color:#fff; font-weight:bold}
+.redarea h6, .bluearea h6{padding:5px 10px; line-height:25px; overflow:hidden}
+.listbox select.ballnum{float:left; margin-left:100px; width:400px; height:200px}
+.listbox ul{float:left; padding:10px; overflow:hidden; _zoom:1}
+input.disabled{border:none; background:transparent}
+.zjcententarea{float:right}
+.zjcententarea+ul{float:left}
+@media all and (min-width:0px){.zjcententarea+ul{width:400px}
+}
+
+.zjcentent table{width:200px}
+.zjcentent table th, 
+.zjcentent table td{padding:3px 0; width:100px}
+.lottery-2-nav{margin:10px 0 0 10px; overflow:hidden; _zoom:1}
+.lottery-2-nav li{float:left; margin:0 2px}
+.lottery-2-nav li a{display:block; _float:left; background:url(images/3tiltbg_out.gif) left top no-repeat; border:1px solid #ccc; width:94px; height:26px; line-height:26px; text-align:center}
+.lottery-2-nav li a.current{background:url(images/3tiltbg_over.gif) left top no-repeat; border-color:#f60; font-weight:bold; color:#fff}
+.lottery-subnav{display:block; margin:0 -10px; padding:0 10px; border-bottom:1px solid #ccc}
+.lottery-subnav li{position:relative; z-index:100; float:left; margin-right:-1px; width:72px; height:26px}
+.lottery-subnav li a{display:block; _float:left; background:#f1f1f1; border:1px solid #ccc; border-bottom:none; width:70px; text-align:center; line-height:25px}
+.span3border{position:absolute; margin-bottom:-1px; background:#fff!important; color:#f60!important; line-height:26px!important; font-weight:bold}
+.ballarea{position:relative; clear:left; padding:10px 0 10px 70px; overflow:hidden; _zoom:1}
+.ballarea s{position:absolute; display:block; left:0; top:16px; background:url(images/bsgnum.gif) left top no-repeat; height:23px; width:60px; text-decoration:none; color:#fff; font-weight:bold; text-align:center; line-height:23px}
+.ballarea dd{float:right; overflow:hidden; _zoom:1}
+.ballarea dt{float:left; overflow:hidden; _zoom:1}
+.ballarea dd b{float:left; margin:5px; width:26px; height:26px; line-height:26px; background-image:url(images/ball_lgrey.gif); text-align:center; cursor:pointer}
+.ballinput input, .ballarea dt input{float:left; margin:5px; background:url(images/ball_lgrey.gif) left top no-repeat; border:0; width:26px; height:26px; line-height:26px; font-weight:bold; cursor:pointer}
+.ballinput{clear:both; display:block; padding:20px 0}
+.choosearea{clear:left; padding:0 10px}
+.redball{background:url(images/ball_lred.gif) no-repeat!important; color:#fff; font-size:14px}
+.blueball{background:url(images/ball_blue_s.gif) left top no-repeat!important; color:#fff}
+.selecttool li{padding:5px}
+.selecttool li a{display:block; background:url(images/botton_out.gif) left top no-repeat; width:79px; height:25px; text-align:center; line-height:25px}
+.selecttool li a:hover{background:url(images/botton_over.gif) left top no-repeat}
+#showresult b{float:left; margin:5px; background:url(images/ball_red.gif) no-repeat; width:32px; height:32px; line-height:32px; text-align:center; color:#fff}
+#showlogin4{margin:10px 60px 0; display:block; background:url(images/kjzs.gif) no-repeat; width:91px; height:30px; text-indent:-9999px}
+.balltitle input, .balltitle img{vertical-align:middle}
+
+.select{border:1px solid #000}
+.selectlist li{padding-right:5px}
+.selectlist li label{display:block}
+.selectlist select{margin:5px 0; border:1px solid #ccc!important; width:140px; font-size:14px}
+.selectlist li.btnarea{padding-top:20px}
+.selectlist li input{margin:5px 0}
+.selectlist li span label{display:inline;margin-left:5px;vertical-align:middle;cursor:pointer}
+
+.bankarea ul li{float:left; padding:5px 0; width:180px}
+.bankarea ul, 
+.bankarea div{overflow:hidden; _zoom:1; display:none}
+.paybtnarea{padding:10px 0 10px 200px}
+.payselect{width:80px; height:30px; line-height:30px; font-size:14px}
+.bankarea ul li label{display:inline-table; * zoom:1; * display:inline; text-indent:-9999px; width:100px; height:28px; line-height:28px; background:url(http://pic.ofcard.com/themes/images/payimg.png) right bottom no-repeat; border:1px solid #fff; cursor:pointer}
+.bankarea ul li label.current{border:1px solid #f60}
+.bankarea ul li input.current+label{border:1px solid #f27e31}
+.bankarea ul li label:hover{border:1px solid #f4e5db}
+.bankarea ul li input{margin-top:5px}
+.bankarea ul li label div{display:none}
+.bankarea ul li label.crediticbc, .bankarea ul li label.icbc{background-position:-709px -208px}
+.bankarea ul li label.creditcmbchina, .bankarea ul li label.cmbchina{background-position:-709px 4px}
+.bankarea ul li label.creditccb, .bankarea ul li label.ccb{background-position:-709px -137px}
+.bankarea ul li label.creditbankcomm, .bankarea ul li label.bankcomm{background-position:-709px -66px}
+.bankarea ul li label.creditabchina, .bankarea ul li label.abchina{background-position:-567px -208px}
+.bankarea ul li label.credithxb, .bankarea ul li label.hxb{background-position:-284px -139px}
+.bankarea ul li label.creditspdb, .bankarea ul li label.spdb{background-position:-426px -139px}
+.bankarea ul li label.creditcmbc, .bankarea ul li label.cmbc{background-position:-567px -66px}
+.bankarea ul li label.creditcib, .bankarea ul li label.cib{background-position:-142px -210px}
+.bankarea ul li label.creditcebbank, .bankarea ul li label.cebbank{background-position:-142px 3px}
+.bankarea ul li label.creditgdb, .bankarea ul li label.gdb{background-position:-426px -210px}
+.bankarea ul li label.creditpingan, .bankarea ul li label.pingan{background-position:-142px -71px}
+.bankarea ul li label.creditbankofshanghai, .bankarea ul li label.bankofshanghai{background-position:-70px -284px}
+.bankarea ul li label.creditecitic, .bankarea ul li label.ecitic{background-position:-284px 1px}
+.bankarea ul li label.credithkbea, .bankarea ul li label.hkbea{background-position:0px -68px}
+.bankarea ul li label.sdb{background-position:-426px -66px}
+.bankarea ul li label.bankofchina{background-position:-567px 3px}
+.bankarea ul li label.gzcb{background-position:-142px -137px}
+.bankarea ul li label.chinabank{background-position:-142px -280px}
+.bankarea ul li label.drcnet{background-position:-px -px}
+.bankarea ul li label.bankofbeijing{background-position:0px 3px}
+.bankarea ul li label.sdebank{background-position:-426px 3px}
+.bankarea ul li label.cbhb{background-position:-284px -279px}
+.bankarea ul li label.bjrcb{background-position:-426px -279px}
+.bankarea ul li label.njcb{background-position:-567px -281px}
+.bankarea ul li label.hccb{background-position:-709px -281px}
+.bankarea ul li label.zfb{background-position:-567px -350px}
+.bankarea ul li label.tenpay{background-position:-426px -352px}
+.bankarea ul li label.baifubao{background-position:0px -421px}
+.bankarea ul li label.k99bill{background-position:-709px -352px}
+.bankarea ul li label.yeepay{background-position:-142px -421px}
+.bankarea ul li label.lakala{background-position:0px -350px}
+.bankarea ul li label.soopay{background-position:-284px -421px}
+.bankarea ul li label.ips{background-position:-284px -350px}
+.bankarea ul li label.udpay{background-position:-142px -352px}
+.bankarea ul#pay3 li label, .bankarea ul li label.chinamobile{background:none; text-indent:0}
+#bankinfo{border-color:#efcdb7; background:#fdf3ec}
+#bankinfo .orange{color:#e1610c}
+.paybtn{background:url(http://pic.ofcard.com/themes/images/payimg.png) 0 -496px no-repeat; width:144px; height:38px; line-height:38px; font-size:25px; font-weight:bold; color:#f7f7f7; border:none; cursor:pointer}
+.paybtn:hover{background-position:-213px -496px}
+.paybtn:active{background-position:-426px -496px}
+
+.panel-l{float:left; width:100%}
+.panel-r{float:left; margin-left:-250px; width:250px}
+.panel-main{margin-right:260px; overflow:hidden; _zoom:1}
+.mobilearea li{padding-top:10px; padding-bottom:10px}
+.mobilearea label{float:left; width:200px; text-align:right; font-size:18px; line-height:30px; font-family:"microsoft YaHei"}
+.mobilearea li input{width:280px; height:30px; font-size:30px; line-height:30px; font-family:Consolas,"Lucida Console","Andale Mono","Bitstream Vera Sans Mono","Courier New",Courier}
+.mobilearea li.m-value a, .mobilearea li.m-value a:visited{display:moz-inline-stack; display:inline-block; * zoom:1; * display:inline; margin-right:10px; width:35px; height:28px; line-height:28px; font-size:18px; font-family:Consolas,"Lucida Console","Andale Mono","Bitstream Vera Sans Mono","Courier New",Courier; border:1px solid #f2d5b7; background:#fff3e6; text-align:center; color:#bb420d}
+.mobilearea li.m-value a:hover{border-color:#e5875e; background:#fff7f4}
+.mobilearea li.m-value a:active{border-color:#ccc; background:#bbb}
+.mobilearea li.m-value a.current{border-color:#f60; background:#f60; color:#f7f7f7; font-weight:bold}
+.gamechongzhiarea dt{float:left; width:300px}
+.gamechongzhiarea dd{margin-left:310px}
+.gamechongzhiarea dd ul li{margin:1px; padding:3px 5px; border-bottom:1px solid #ccc}
+.gamechongzhiarea dd ul li:hover{background:#fff5eb}
+.mobilearea .btnarea{padding-left:205px}
+
+.panel-l{float:left; width:100%}
+.panel-r{float:left; margin-left:-250px; width:250px}
+.panel-main{margin-right:260px; overflow:hidden; _zoom:1}
+.mobilearea li{padding-top:10px; padding-bottom:10px}
+.mobilearea label{line-height:30px; font-family:"microsoft YaHei"}
+.mobilearea li.entry input{width:280px; height:30px; font-size:30px; line-height:30px; font-family:Consolas,"Lucida Console","Andale Mono","Bitstream Vera Sans Mono","Courier New",Courier}
+.mobilearea li a, .mobilearea a:visited{display:moz-inline-stack; display:inline-block; * zoom:1; * display:inline; margin-right:10px; width:35px; height:28px; line-height:28px; font-size:18px; font-family:Consolas,"Lucida Console","Andale Mono","Bitstream Vera Sans Mono","Courier New",Courier; border:1px solid #f2d5b7; background:#fff3e6; text-align:center; color:#bb420d}
+.mobilearea li a:hover{border-color:#e5875e; background:#fff7f4}
+.mobilearea li a:active{border-color:#ccc; background:#999}
+.mobilearea li a.current{border-color:#f60; background:#f60; color:#f7f7f7; font-weight:bold}
+.gamechongzhiarea dt{float:left; width:300px}
+.gamechongzhiarea dd{margin-left:310px}
+.gamechongzhiarea dd ul li{margin:1px; padding:3px 5px; border-bottom:1px solid #ccc}
+.gamechongzhiarea dd ul li:hover{background:#fff5eb}
+.mobilearea .btnarea{padding-left:205px}
+.ordercrambs{position:relative; margin-top:10px; height:27px}
+.ordercrambs ul{position:absolute; top:0; margin-left:30px; width:90%}
+.ordercrambs ul li{float:left; padding:0; width:33%; font-size:12px}
+.ordercrambs ul li tt{margin:0 8px 0 0; float:left; background:url(http://pic.ofcard.com/themes/sales4sys/default/images/bar.png) -34px -952px no-repeat; height:17px; width:17px; line-height:17px; font-weight:bold; font-family:"Courier New",Courier,monospace; color:#666; text-align:center; vertical-align:middle}
+.ordercrambs ul li.over tt{background-position:-58px -952px; color:#f7f7f7}
+.ordercrambs ul li.current{font-size:14px; color:#f60; font-weight:bold}
+.ordercrambs ul li.current tt{background-position:0px -952px; width:25px; height:30px; line-height:25px; font-size:18px; color:#fff}
+.orderform h2{margin:-10px -10px 10px -10px; padding:10px 0; font-size:18px; text-align:center; border-bottom:1px dotted #ccc; background:#f7f7f7}
+.orderform table{width:100%}
+.orderform .formul li, 
+.orderform table tr td{font-size:16px; line-height:40px; vertical-align:middle}
+.orderform .formul li label{width:30%}
+.orderform .formul li label, 
+.orderform table tr td span{line-height:40px}
+.orderform .formul li input[type="text"], 
+.orderform .formul li select, 
+.orderform table tr td input[type="text"], 
+.orderform table tr td select{padding:5px; width:190px; font-size:14px\9; height:auto}
+* html .orderform input{padding:5px; width:190px; font-size:14px; height:auto}
+* html .orderform label input, 
+* html input.radio{padding:0; width:auto; font-size:auto; height:auto}
+.orderform table tr td input.short{width:50px; text-align:center}
+.orderform table tr td select{width:202px; font-size:20px\9}
+.orderform table tr td .tablelist th{padding:2px; font-size:12px}
+.orderform table tr#totalsaleprice_tr label{line-height:40px}
+.orderform table tr .priceL{font-size:2em; line-height:40px; color:#f60}
+.orderform .formul li.btnarea, 
+.orderform .btnarea{padding:15px 0 15px 31%}
+.orderform div.btnarea button{margin-right:30px}
+.orderform table tr samp{float:none; padding:0 5px; border:none}
+.important{border:1px solid #f1baa0; background:#fff6ee}
+#ajaxmsg{float:right; font-size:14px; border:1px solid #f90; background:#FFC; padding:10px}
+.tabletoolbar a, .tabletoolbar a span{float:left; margin-right:10px; padding-right:10px; background:url(images/bar.png) right -492px no-repeat; line-height:24px; height:24px; color:#222}
+
+.tabletoolbar a:hover{background-position:right -529px; color:#fff}
+.tabletoolbar a:active{background-position:right -569px; color:#666}
+.tabletoolbar a span{position:relative; margin:0 0 0 -1px; padding:0 0 0 10px; background-position:left -492px; cursor:pointer}
+.tabletoolbar a:hover span{background-position:left -529px; color:#fff}
+.tabletoolbar a:active span{background-position:left -569px; color:#666}
+.btnarea button{background:url(images/truebutton.gif); width:60px; height:30px; color:#FFF; border:0px; line-height:25px; cursor:pointer; vertical-align:middle}
+
+.GL-MainNav{margin:0px auto; width:720px}
+.GL-MainChooseArea{position:relative; float:left; width:620px; height:34px; border:1px solid #ccc}
+.GL-ChooseBar{padding:5px 5px 0 5px}
+.GL-GameName, .GL-GameCategory, .GL-MainChooseArea s{float:left; padding:0 3px; line-height:24px}
+.GL-GameName:hover, .GL-GameCategory:hover{background:#80b3e6; color:#fff}
+.GL-GameName:active, .GL-GameCategory:active{background:#e2e2e2; color:#666}
+.GL-SearchBar{padding:3px 5px 0 5px}
+.GL-SearchBar input{border:none; height:24px; line-height:24px; width:100%; font-size:inherit}
+.GL-MainChooseBTN{float:right}
+.GL-MainChooseArea-Btn{float:right; margin:3px}
+.GL-ChooseWin{position:absolute; top:34px; left:0; z-index:99; background:#f3f4f5}
+.GL-ChooseWin-CBtn{position:absolute; top:0px; * top:39px; right:5px; color:#999}
+
+.GameLetterNav{  clear:right}
+.GameLetterNav li{  float:left;   margin:1px}
+.GameLetterNav li a{  padding:2px 5px;   font-family:simsun;   background:#fff;   border:1px solid #ccc}
+.GameLetterNav li.current a{  background:#f60;   color:#fff;   border-color:#f60}
+
+ul.GL-ChooseGame-List{margin:10px 5px}
+ul.GL-ChooseGame-List li{float:left; margin:3px 0; width:147px; overflow:hidden; white-space:nowrap;      -o-text-overflow:ellipsis;      text-overflow:ellipsis}
+ul.GL-ChooseGame-List li a{padding:1px 3px}
+ul.GL-ChooseGame-List li a:hover{background:#fff}
+
+.Game-P-ChooseArea{border:none}
+.Game-P-ChooseBar{float:left; width:160px; height:24px; border:1px solid #ccc}
+.Game-P-ChooseBar-Btn{float:right}
+.Game-P-ChooseBar-Name{float:left; padding:0 5px; width:106px; height:24px; overflow:hidden; white-space:nowrap; -o-text-overflow:ellipsis; text-overflow:ellipsis}
+.noborder{border:none}
+.nobg{background:none!important}
+.block{border:1px solid #A8A8A8}
+.yellow{color:#FE4800}
+.searchArea{width:827px; margin:20px auto}
+.searchArea ol li{float:left; position:relative; padding-left:10px; border-top:1px solid #EE600E; border-left:1px solid #EE600E; border-bottom:1px solid #FDAD4C; height:28px; line-height:28px}
+.searchArea li em{display:inline-block; margin:auto 15px; margin-right:5px; width:9px; height:6px; background:url(images/newcart.png) left top no-repeat; cursor:pointer}
+.searchArea li.put-in{border-right:1px solid #FDAD4C}
+.searchArea li input{height:20px; line-height:27px; width:212px; margin-top:0px; border:none; text-align:right; padding-right:20px}
+.searchArea button{width:118px; height:28px; background:url(images/newcart.png) right top no-repeat; text-indent:-9999px}
+.choose-list{float:left; position:absolute; top:40px; left:0; width:840px; background:#fff; border:1px solid #FF6D00; padding:10px}
+.choose-list dl dt a.close{display:inline-block; width:17px; height:18px; background:url(images/newcart.png) right -65px no-repeat; text-indent:-999px}
+.tablelist a{color:#0A7DCD!important}
+a.default{color:#FF6D00!important}
+.transverse li{margin-right:30px}
+.transverse li.li-tit{font-size:14px; font-weight:bold; color:#FE4800}
+.transverse li.li-tit s{display:inline-block; background:url(images/newcart.png) right -38px no-repeat; height:18px; width:16px; margin-right:5px}
+.quick-search input{border:1px solid #D2D0D1; width:187px; height:20px}
+.quick-search a{display:inline-block; background:url(images/newcart.png) left -32px no-repeat; width:45px; height:23px; vertical-align:middle}
+.user-note{float:right; height:20px; line-height:20px; font-size:12px}
+.user-note em{display:inline-block; width:21px; height:25px; margin-right:5px; background:url(images/newcart.png) right -96px no-repeat; vertical-align:middle}
+.orderblock h3{font-size:14px; font-weight:bold; margin:10px 5px 5px 5px; padding-left:15px; color:#EB530A; background:url(images/newcart.png) -186px -169px no-repeat; height:14px; line-height:14px}
+.info-area{width:100%; height:auto; overflow:hidden; background:#fff url(images/newcart.png) left -312px repeat-x}
+.info-area .inportant-price{font-size:26px; color:#EA4702; font-weight:bold; font-family:"&#24494; &#36719; &#38597; &#40657; ","&#23435; &#20307; "; padding-right:5px}
+.buyer-note{float:left; width:389px; background:#FDF0DE; border:1px solid #FCF3E4; padding:10px; color:#E64403}
+.buyer-confirm{line-height:60px; font-size:14px}
+.transverse li img{vertical-align:middle}
+.fold-area{width:342px; height:1px; background:url(images/fold-bg.png) left top no-repeat; margin:30px auto 10px 140px; text-align:center}
+.fold-area a, .fold-area a.unfold{display:inline-block; width:92px; height:18px; position:relative; text-indent:-9999px; margin-top:-18px; background:url(images/newcart.png) no-repeat}
+.fold-area a{background-position:left -204px}
+.fold-area a.unfold{background-position:left -228px}
+.fold-info{background:#ECF0FB; border:1px solid #CADBF5; width:626px; height:auto; overflow:hidden; margin-left:96px; margin-top:-10px; z-index:300}
+.fold-info dl, .fold-info dt, .fold-info dd{float:left}
+.fold-info dl{margin:15px auto 15px 90px}
+.fold-info dl .formul label{width:110px!important}
+.fold-info dl dt .img{background:#fff; border:1px solid #CADBF5; padding:3px; vertical-align:middle}
+.fold-info dl dt .img img{width:109px; height:108px}
+.info-area li.contact div{width:490px; height:174px; line-height:174px; margin-left:110px; background:url(images/contact.png) left top no-repeat; text-align:center; font-size:14px}
+.safeArea i {display:-moz-inline-stack;display:inline-block;*zoom:1;*display:inline;margin:0px 3px 0 0;vertical-align:middle;height:16px;width: 16px;background: url(http://pic.ofcard.com/themes/images/commonFileIcon.png) -9999px -9999px no-repeat;}
+.safeArea i.safeOk {background-position:0 0;}
+.safeArea i.safeNo {background-position:-26px 0;}

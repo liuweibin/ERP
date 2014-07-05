@@ -1,0 +1,402 @@
+/* bank area  by kvass */
+/* 2010 09 25 */
+.bankarea ul li {
+	float: left;
+	padding: 5px 0;
+	width: 200px;
+}
+.bankarea ul,
+.bankarea div {
+	overflow: hidden;
+	_zoom: 1;
+	display:none;
+}
+.paybtnarea {
+	padding: 10px 0 10px 200px;
+}
+.payselect {
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+}
+.bankarea ul li label {
+	display: inline-table;
+	* zoom: 1;
+	* display:inline;
+	text-indent: -9999px;
+	width: 100px;
+	height: 28px;
+	line-height: 28px;
+	background: url(../../images/payimg.png) right bottom no-repeat;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+
+.bankarea ul li label.current {
+	border: 1px solid #f60;
+}
+.bankarea ul li input.current + label {
+	border: 1px solid #f27e31;
+}
+.bankarea ul li label:hover {
+	border-color:#f60;
+}
+.bankarea ul li label div {
+	display: none;
+}
+.bankarea ul li label.crediticbc,.bankarea ul li label.icbc {
+	background-position: -709px -208px;
+}/*工商银行 */
+.bankarea ul li label.creditcmbchina,.bankarea ul li label.cmbchina {
+	background-position: -709px 4px;
+}/*招商*/
+.bankarea ul li label.creditccb,.bankarea ul li label.ccb {
+	background-position: -709px -137px;
+}/* 建设银行 */
+.bankarea ul li label.creditbankcomm,.bankarea ul li label.bankcomm {
+	background-position: -709px -66px;
+}/* 交通银行 */
+.bankarea ul li label.ofpayykt,.bankarea ul li label.ofpayykt {background-position: -705px -542px;}
+.bankline{border:0 dotted #cccccc;border-bottom-width:1px;font-weight:bold;margin:5px;}/*--欧飞支付一卡通，由陈浪添加*/
+.bankarea ul li label.creditabchina,.bankarea ul li label.abchina {
+	background-position: -567px -208px;
+}/* 农业银行 */
+.bankarea ul li label.credithxb,.bankarea ul li label.hxb {
+	background-position: -284px -139px;
+}/* 华厦银行 */
+.bankarea ul li label.creditspdb,.bankarea ul li label.alipay_SPDB_bank_pic {
+	background-position: -426px -139px;
+}/* 浦发银行 */
+.bankarea ul li label.creditcmbc,.bankarea ul li label.cmbc {
+	background-position: -567px -66px;
+}/* 民生银行 */
+.bankarea ul li label.creditcib,.bankarea ul li label.cib {
+	background-position: -142px -210px;
+}/* 兴业银行 */
+.bankarea ul li label.creditcebbank,.bankarea ul li label.cebbank {
+	background-position: -142px 3px;
+}/* 光大银行 */
+.bankarea ul li label.creditgdb,.bankarea ul li label.gdb {
+	background-position: -426px -210px;
+}/* 广发银行 */
+.bankarea ul li label.creditpingan,.bankarea ul li label.pingan {
+	background-position: -142px -71px;
+}/* 平安银行 */
+.bankarea ul li label.creditecitic,.bankarea ul li label.ecitic {
+	background-position: -284px 1px;
+}/* 中信银行 */
+.bankarea ul li label.credithkbea,.bankarea ul li label.hkbea {
+	background-position: 0px -68px;
+}/* 东亚银行 */
+.bankarea ul li label.sdb {
+	background-position: -426px -66px;
+}/* 深圳发展银行 */
+.bankarea ul li label.bankofchina {
+	background-position: -567px 3px;
+}/* 中国银行 */
+.bankarea ul li label.gzcb {
+	background-position: -142px -137px;
+}/* 广州市商业银行 */
+.bankarea ul li label.chinabank {
+	background-position: -142px -280px;
+}/* 广州农村商业银行 */
+.bankarea ul li label.sz961200 {
+	background-position: -567px -139px;
+}/* 深圳农村商业银行 */
+.bankarea ul li label.alipay_BJBANK_bank_pic {
+	background-position: 0px 3px;
+}/* 北京银行 */
+.bankarea ul li label.sdebank {
+	background-position: -426px 3px;
+}/* 顺德信用社 */
+.bankarea ul li label.nbcb {
+	background-position: -426px -423px;
+}/* 宁波银行 */
+.bankarea ul li label.hsbank {
+	background-position: -709px -494px;
+}/* 徽商银行 */
+.bankarea ul li label.czbank {
+	background-position: -709px -423px;
+}/* 渐商银行 */
+.bankarea ul li label.cbhb {
+	background-position: -284px -279px;
+}/* 渤海银行 */
+.bankarea ul li label.bankofshanghai {
+	background-position: 3px -279px;
+}/* 上海银行 */
+.bankarea ul li label.srcb {
+	background-position: 3px -139px;
+}/* 上海农村商业银行 */
+.bankarea ul li label.alipay_POSTGC_bank_pic {
+	background-position: -284px -213px;
+}/* 中国邮政 */
+.bankarea ul li label.bjrcb {
+	background-position: -426px -279px;
+}/* 北京农村商业银行 */
+.bankarea ul li label.njcb {
+	background-position: -567px -281px;
+}/* 南京银行 */
+.bankarea ul li label.hccb {
+	background-position: -709px -281px;
+}/* 杭州银行 */
+.bankarea ul li label.alipay_pay_pic {
+	background-position: -567px -350px;
+}/* 支付宝 */
+.bankarea ul li label.zfbfree {
+	background-position: -567px -426px;
+}/* 支付宝无费率 */
+.bankarea ul li label.tenpay {
+	background-position: -426px -352px;
+}/* 财付通 */
+.bankarea ul li label.tenpayFree,
+.bankarea ul li label.tenpayfree {
+	background-position: 4px -563px;
+}/* 财付通免费 */
+.bankarea ul li label.baifubao {
+	background-position: 0px -421px;
+}/* 百付宝 */
+.bankarea ul li label.k99bill {
+	background-position: -709px -352px;
+}/* 快钱 */
+.bankarea ul li label.yeepay {
+	background-position: -142px -421px;
+}/* 易宝支付 */
+.bankarea ul li label.lakala {
+	background-position: 0px -350px;
+}/* 拉卡拉 */
+.bankarea ul li label.soopay {
+	background-position: -284px -421px;
+}/* 嗖付 */
+.bankarea ul li label.ips {
+	background-position: -284px -350px;
+}/* 环讯支付 */
+.bankarea ul li label.udpay {
+	background-position: -142px -352px;
+}/* 网汇通 */
+.bankarea ul li label.zypay {
+	background-position: -426px -567px;
+}/* 银联掌付 */
+.bankarea ul li label.abchinafree{background-position: -706px -563px;}/* 农业银行无费率 */
+.bankarea ul li label.ccbfree{background-position: -564px -563px;}/* 建设银行无费率 */
+.bankarea ul li label.abchinapos{background-position: 0px -638px;}/* 农业银行pos机 */
+.bankarea ul#pay3 li label,.bankarea ul li label.chinamobile {
+	background: none;
+	text-indent: 0;
+}
+#bankinfo {
+	border-color: #efcdb7;
+	background: #fdf3ec;
+}
+#bankinfo .orange {
+	color: #e1610c;
+}
+
+
+
+/* 2011 09 3 陈浪增加银行样式，把银行编号同cass一致 */
+
+.bankarea ul li label.alipay_ICBCB2C_bank_pic{
+	background-position: -709px -208px;
+}/*工商银行 */
+.bankarea ul li label.alipay_CMB_bank_pic{
+	background-position: -709px 4px;
+}/*招商*/
+.bankarea ul li label.alipay_CCB_bank_pic{
+	background-position: -709px -137px;
+}/* 建设银行 */
+.bankarea ul li label.alipay_COMM-DEBIT_bank_pic{
+	background-position: -709px -66px;
+}/* 交通银行 */
+.bankarea ul li label.ofonecard{background-position: -142px -567px;}/*--欧飞支付一卡通，由陈浪添加*/
+.bankline{border:0 dotted #cccccc;border-bottom-width:1px;font-weight:bold;margin:5px;
+}
+.bankarea ul li label.alipay_ABC_bank_pic{
+	background-position: -567px -208px;
+}/* 农业银行 */
+.bankarea ul li label.alipay_HXYH_bank_pic{
+	background-position: -284px -139px;
+}/* 华厦银行 */
+.bankarea ul li label.alipay_SPDB-DEBIT_bank_pic{
+	background-position: -426px -139px;
+}/* 浦发银行 */
+.bankarea ul li label.alipay_CMBC_bank_pic{
+	background-position: -567px -66px;
+}/* 民生银行 */
+.bankarea ul li label.alipay_CIB_bank_pic{
+	background-position: -142px -210px;
+}/* 兴业银行 */
+.bankarea ul li label.alipay_CEBBANK_bank_pic{
+	background-position: -142px 3px;
+}/* 光大银行 */
+.bankarea ul li label.alipay_GDB_bank_pic{
+	background-position: -426px -210px;
+}/* 广发银行 */
+.bankarea ul li label.alipay_SPABANK_bank_pic{
+	background-position: -142px -71px;
+}/* 平安银行 */
+.bankarea ul li label.alipay_CITIC_bank_pic{
+	background-position: -284px 1px;
+}/* 中信银行 */
+.bankarea ul li label.credithkbea{
+	background-position: 0px -68px;
+}/* 东亚银行 */
+.bankarea ul li label.j10109 {
+	background-position: -426px -66px;
+}/* 深圳发展银行 */
+.bankarea ul li label.alipay_BOCB2C_bank_pic {
+	background-position: -567px 3px;
+}/* 中国银行 */
+.bankarea ul li label.j10124 {
+	background-position: -142px -137px;
+}
+/* 中国银行 */
+.bankarea ul li label.j10127 {
+	background-position: -142px -280px;
+}/* 广州市商业银行 */
+.bankarea ul li label.chinabank {
+	background-position: -142px -280px;
+}/* 广州农村商业银行 */
+.bankarea ul li label.sz961200 {
+	background-position: -567px -139px;
+}/* 深圳农村商业银行 */
+.bankarea ul li label.j10118 {
+	background-position: 0px 3px;
+}/* 北京银行 */
+.bankarea ul li label.sdebank {
+	background-position: -426px 3px;
+}/* 顺德信用社 */
+.bankarea ul li label.j10116 {
+	background-position: -426px -423px;
+}/* 宁波银行 */
+.bankarea ul li label.hsbank {
+	background-position: -709px -494px;
+}/* 徽商银行 */
+.bankarea ul li label.czbank {
+	background-position: -709px -423px;
+}/* 渐商银行 */
+.bankarea ul li label.j10126 {
+	background-position: -284px -279px;
+}/* 渤海银行 */
+.bankarea ul li label.j10115 {
+	background-position: 3px -279px;
+}/* 上海银行 */
+.bankarea ul li label.j10125 {
+	background-position: 3px -139px;
+}/* 上海农村商业银行 */
+.bankarea ul li label.j10132 {
+	background-position: -284px -213px;
+}/* 中国邮政 */
+.bankarea ul li label.j10119 {
+	background-position: -426px -279px;
+}/* 北京农村商业银行 */
+.bankarea ul li label.njcb {
+	background-position: -567px -281px;
+}/* 南京银行 */
+.bankarea ul li label.alipay_HZCBB2C_bank_pic {
+	background-position: -709px -281px;
+}/* 杭州银行 */
+.bankarea ul li label.g10201 {
+	background-position: -567px -350px;
+}/* 支付宝 */
+
+.bankarea ul li label.ZDYZFB0001 {
+	background-position: -567px -350px;
+}/* 自定义支付宝 */
+
+.bankarea ul li label.g10202 {
+	background-position: -567px -426px;
+}/* 支付宝无费率 */
+.bankarea ul li label.g10203 {
+	background-position: -426px -352px;
+}/* 财付通 */
+.bankarea ul li label.ZDYCFT0001 {
+	background-position: -426px -352px;
+}/* 自定义财付通 */
+.bankarea ul li label.g10204 {
+	background-position: 4px -563px;
+}/* 财付通免费 */
+.bankarea ul li label.baifubao {
+	background-position: 0px -421px;
+}/* 百付宝 */
+.bankarea ul li label.k99bill {
+	background-position: -709px -352px;
+}/* 快钱 */
+.bankarea ul li label.yeepay {
+	background-position: -142px -421px;
+}/* 易宝支付 */
+.bankarea ul li label.lakala {
+	background-position: 0px -350px;
+}/* 拉卡拉 */
+.bankarea ul li label.soopay {
+	background-position: -284px -421px;
+}/* 嗖付 */
+.bankarea ul li label.ips {
+	background-position: -284px -350px;
+}/* 环讯支付 */
+.bankarea ul li label.udpay {
+	background-position: -142px -352px;
+}/* 网汇通 */
+.bankarea ul li label.cmpay {
+	background-position: -284px -567px;
+}/* 手机支付 */
+
+/*
+ ========================================================================================================
+                                      财付通
+ ========================================================================================================
+*/
+.bankarea ul li label.tenpay_CMB_D_bank_pic{
+	background-position: -709px 4px;
+}/*工商银行 */
+
+.bankarea ul li label.tenpay_0_bank_pic {
+	background-position: -426px -352px;
+}/* 财付通 */
+
+.bankarea ul li label.tenpay_ICBC_D_bank_pic{
+	background-position: -709px -208px;
+}/*工商银行 */
+
+.bankarea ul li label.tenpay_CCB_D_bank_pic{
+	background-position: -709px -137px;
+}/* 建设银行 */
+
+.bankarea ul li label.tenpay_ABC_bank_pic{
+	background-position: -567px -208px;
+}/* 农业银行 */
+
+.bankarea ul li label.tenpay_CMBC_D_bank_pic{
+	background-position: -567px -66px;
+}/* 民生银行 */
+
+.bankarea ul li label.tenpay_CIB_D_bank_pic{
+	background-position: -142px -210px;
+}/* 兴业银行 */
+
+.bankarea ul li label.tenpay_CEB_D_bank_pic{
+	background-position: -142px 3px;
+}/* 光大银行 */
+
+.bankarea ul li label.tenpay_PAB_bank_pic{
+	background-position: -142px -71px;
+}/* 平安银行 */
+
+.bankarea ul li label.tenpay_COMM_D_bank_pic{
+	background-position: -709px -66px;
+}/* 交通银行 */
+
+.bankarea ul li label.tenpay_POSTGC_bank_pic {
+	background-position: -284px -213px;
+}/* 中国邮政 */
+
+.bankarea ul li label.tenpay_BOB_bank_pic {
+	background-position: 0px 3px;
+}/* 北京银行 */
+
+.bankarea ul li label.tenpay_BOC_D_bank_pic {
+	background-position: -142px -137px;
+}
+/* 中国银行 */
+
+
